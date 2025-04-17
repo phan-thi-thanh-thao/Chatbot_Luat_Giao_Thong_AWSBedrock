@@ -1,0 +1,33 @@
+digraph INFRA {
+  node [ color = "black", fillcolor = "#E6E6E6", height =1, style = "filled,bold,rounded", fontname = "Arial" ];
+  "ExampleIntSchema" [ label = "ExampleIntSchema
+(arrow::Schema)", shape =rectangle ];
+  "ExampleStringSchema" [ label = "ExampleStringSchema
+(arrow::Schema)", shape =rectangle ];
+  "ExampleDictSchema" [ label = "ExampleDictSchema
+(arrow::Schema)", shape =rectangle ];
+  "ExampleLargeSchema" [ label = "ExampleLargeSchema
+(arrow::Schema)", shape =rectangle ];
+  "ExampleIntBatches" [ label = "ExampleIntBatches
+(arrow::RecordBatchVector)", shape =rectangle ];
+  "ExampleFloatBatches" [ label = "ExampleFloatBatches
+(arrow::RecordBatchVector)", shape =rectangle ];
+  "ExampleDictBatches" [ label = "ExampleDictBatches
+(arrow::RecordBatchVector)", shape =rectangle ];
+  "ExampleNestedBatches" [ label = "ExampleNestedBatches
+(arrow::RecordBatchVector)", shape =rectangle ];
+  "ExampleLargeBatches" [ label = "ExampleLargeBatches
+(arrow::RecordBatchVector)", shape =rectangle ];
+  "VeryLargeBatch" [ label = "VeryLargeBatch
+(arrow::RecordBatch)", shape =rectangle ];
+  "ExampleFlightInfo" [ label = "ExampleFlightInfo
+(arrow::flight::FlightInfo)", shape =rectangle ];
+  "ExampleActionTypes" [ label = "ExampleActionTypes
+(arrow::flight::ActionType)", shape =rectangle ];
+  "MakeFlightInfo" [ label = "MakeFlightInfo
+(arrow::flight::FlightInfo)", shape =rectangle ];
+  "ExampleTlsCertificates" [ label = "ExampleTlsCertificates
+(arrow::flight::CertKeyPair)", shape =rectangle ];
+  "ExampleTlsCertificateRoot" [ label = "ExampleTlsCertificateRoot
+(arrow::flight::CertKeyPair)", shape =rectangle ];
+}
