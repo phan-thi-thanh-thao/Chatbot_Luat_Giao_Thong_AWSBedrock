@@ -25,7 +25,7 @@ logger = logging.getLogger(__name__)
 # Get config from environment variables
 agent_id = os.environ.get("BEDROCK_AGENT_ID")
 agent_alias_id = os.environ.get("BEDROCK_AGENT_ALIAS_ID", "TSTALIASID")  # TSTALIASID is the default test alias ID
-ui_title = os.environ.get("BEDROCK_AGENT_TEST_UI_TITLE", "Agents for Amazon Bedrock Test UI")
+ui_title = os.environ.get("BEDROCK_AGENT_TEST_UI_TITLE", "Bạn Hữu Đường Xa 🚗")
 ui_icon = os.environ.get("BEDROCK_AGENT_TEST_UI_ICON")
 
 
